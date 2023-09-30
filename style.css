@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid red; */
+        }
+
+        body{
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffff;
+        }
+
+        /* Estilo para a barra de navegação */
+        ul.navbar {
+            list-style-type: none;
+            background-color: #0CB236;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+       .container {
+        display: block;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 8%;
+      }
+
+      .container2{
+        display: block;
+        margin-bottom: 2%;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 5%;
+      }
+
+       .quem-somos{
+        display: flex;
+        flex-direction: column;
+       }
+
+       .conhecendo{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+       }
+
+       .texto1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 21px;
+       }
+
+        /* Estilo para os itens da barra de navegação */
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: flex;
+            justify-content: space-around;
+            color: #fff;
+            text-align: center;
+            padding: 6% 16px;
+            text-decoration: none; 
+        }
+        img{
+            display: flex;
+            justify-content: left;
+        }
+        /* Mudar a cor do link ao passar o mouse */
+        ul.navbar li a:hover {
+            background-color: #27743a;
+        }
+        a{
+          display: flex;
+          margin-top: 20px;
+          justify-content: flex-end;
+           
+        }
+        .greentext{
+            color: #0CB236;
+            font-size: 20px;
+        }
+        .instagram{
+            display: flex;
+            gap: 3%;
+            padding-bottom: 1%;
+        }
+        .google{
+            display: flex;
+            gap: 3%;
+        }    
+        .github{
+            display: flex;
+            gap: 3%;
+            padding-bottom: 1%;
+        } 
+        .redes{
+            display: flex;
+            flex-direction: row;
+            margin-top: 2%;
+            gap: 3%;
+        }
+        .redes2{
+            display:block;
+            flex-direction:column;
+            margin-top: 2%;  
+        }
+        .title{
+            padding: 2.9%;
+            font-size: 30px;
+        }
+        .logo{
+            display: block;
+            margin-right: auto;
+        }
+        .greenbar{
+            color: #0CB236;
+            border: 0.03rem solid;
+        }
+        .bio1{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            flex-direction: row;
+            margin-left: 3%;
+            padding-bottom: 5%;
+        }
+        .bio2{
+            display: grid;
+            grid-template-columns: 38% 80%;
+            flex-direction: row;
+            margin-right: 3%;
+            padding-bottom: 5%;
+        }
+        .caixa2{
+        margin-right: 20%;
+        }
+        .names{
+            color: #2B2929;
+            opacity: 90%;
+            margin-bottom: 1%;
+            font-size: 25px;
+        }
+        .container3{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            flex-direction: row;
+            margin-left: 3%;
+            padding-bottom: 5%;
+            margin-top: 5%;
+        }
+        .bio3{
+            display: grid ;
+            flex-direction: column;
+            margin-left: 3%;
+            padding-bottom: 5%;
+        }
+        
+      
+
+        
+        
